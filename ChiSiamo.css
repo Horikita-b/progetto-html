@@ -1,0 +1,179 @@
+* { font-family: "Roboto", serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+body { background-color:rgb(0, 0, 0);
+}       
+
+.top {background-color: #000000;
+    text-align: center;  
+}
+
+.paragrafo1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.top .paragrafo2 {
+    padding: 20px;
+}
+
+
+.immagine1 {
+    width: auto;   /*adatta contenuto alla larghezza div*/
+    height: 400px;  /*altezza elemento*/
+    background-image: url('immagini/1.jpg');
+    background-size: cover; /*copre lo spazio dell'intero div*/
+    background-position: center; 
+    background-repeat: no-repeat;   
+    border-bottom-left-radius: 50% 40%;  /*curvatura orizzontale-verticale sinistra*/
+    border-bottom-right-radius: 50% 40%; /*curvatura orizzontale-verticale destra*/
+    
+}
+
+.spazio {background-color: #000000;
+        margin: 100px;
+}
+
+
+.immagine1 .titolo1 {
+    text-align: center;
+    padding: 75px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+} 
+.centro {
+    display: flex; /*rendo flex il div che contiene altri due div, così da poterli disporre in modo orizzontale */
+    margin: 40px; /* Margine esterno del contenitore */
+    margin-top: 40px;
+}
+
+
+.centro .titolo2 {color: #0BB7E7;
+}
+
+    .sinistra {
+    flex: 1; /* il div di sinistra occupa lo stesso spazio del div di destra */
+    margin-top: 100px; 
+}
+
+.destra {
+    flex: 1;/* il div di destra occupa lo stesso spazio del div di sinistra */
+    padding: 40px; 
+}
+
+
+.spazio2 {background-color: #000000;
+    margin: 100px;
+}
+
+.fine .titolo6 {
+    text-align: center;
+    color: #0BB7E7;
+}
+.fine .titolo7 {
+    text-align: center;
+    
+}
+
+.fa-solid{
+    font-size: 32px;
+    color: #0BB7E7;
+    background-color: rgb(8, 8, 8);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.bottom {display: flex;
+    margin: 50px;
+}
+
+.sinistra2 .icona1 {
+    margin-bottom: 30px;
+}
+
+.sinistra2 {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.sinistra2 .paragrafo2 {
+    text-align: center;
+    
+}
+
+.titolo3{
+    margin-bottom: 30px;
+}
+.titolo4{
+    margin-bottom: 30px;
+}
+.titolo5{
+    margin-bottom: 30px;
+}
+.centro2 .icona2 {
+    margin-bottom: 30px;
+}
+
+.centro2{
+    text-align: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+.centro .paragrafo3 {
+    text-align: center;
+    
+}
+.destra2 .icona3 {
+    margin-bottom: 30px;
+}
+
+.destra2{
+    text-align: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+.centro .paragrafo4 {
+    text-align: center;
+    
+}
+
+.collage {
+    background-color: white;
+}
+
+
+.bottom2 {
+    display: flex;
+    margin: 80px;
+
+}
+.sinistra3{
+    text-align: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.sinistra3 .numero1 {
+    font-size: 41px;;
+}
+.centro3{
+    text-align: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+.centro3 .numero2 {
+    font-size: 41px;;
+}
+.destra3{
+    text-align: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+.destra3 .numero3 {
+    font-size: 41px;;
+}
