@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssChiSiamo.css">
+    <title>Chi siamo </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/31c7a0c8b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="immagine1">
+        <div class="titolo1">
+            <h1>Chi siamo</h1>
+        </div>
+        <p class="paragrafo1">
+            Una società di consulenza informatica che unisce innovazione e competenza per offrire soluzioni su misura. <br>
+            Aiutiamo le aziende a raggiungere i loro obiettivi tecnologici e a crescere nel mercato digitale.
+            
+        </p>
+    </div>
+
+    <div class="spazio">
+          </div>
+
+
+    <div class="centro">
+        <div class="sinistra">
+            <h4 class="titolo2">La nostra storia </h4>
+            <h3> Un viaggio di innovazione, passione e crescita <br>
+                al fianco delle aziende</h3>
+        </div>
+        <div class="destra">
+            <p>
+                La nostra avventura è iniziata con una visione: rendere la tecnologia accessibile e utile per ogni azienda, <br>
+                indipendentemente dalle sue dimensioni o settore. Anno dopo anno, abbiamo costruito relazioni solide con i nostri clienti, <br>
+                collaborando per trasformare idee in realtà.
+            </p>
+            <br>
+            <p>
+                Dal nostro primo progetto a oggi, abbiamo costantemente investito in innovazione, formazione e persone, <br>
+                perché crediamo che il successo nasca da un mix di competenza tecnica e ascolto delle esigenze reali. <br>
+                Ogni progetto che realizziamo racconta una parte della nostra storia: una storia fatta di passione, <br>
+                sfide vinte e obiettivi raggiunti insieme.
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="bottom">
+        <div class="sinistra2">
+            <div class="icona1">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h4 class="titolo3">Il Nostro Obiettivo</h4>
+            <p class="paragrafo2">Offrire soluzioni IT innovative che migliorano l'efficienza <br>
+                 e favoriscono la crescita delle aziende.</p>
+        </div>
+        <div class="centro2">
+            <div class="icona2">
+                <i class="fa-solid fa-user-secret"></i>
+        </div>
+            <h4 class="titolo4">La Nostra Visione</h4>
+            <p class="paragrafo3">Essere il partner tecnologico di fiducia per le aziende <br>
+                nel percorso di trasformazione digitale.</p>
+        </div>
+        <div class="destra2">
+            <div class="icona3">
+            <i class="fa-solid fa-cubes"></i>
+        </div>
+            <h4 class="titolo5">La Nostra Missione</h4>
+        <p class="paragrafo4">Supportare le aziende nell'adozione di tecnologie avanzate <br>
+            per ottimizzare processi e risolvere sfide digitali.</p>
+        </div>
+    </div>
+    
+    <div class="collage">
+    </div>
+    
+
+    <div class="spazio2"></div>
+       
+
+
+
+    <div class="bottom2">
+        <div class="sinistra3">
+            <h4 class="numero1">10 + </h4>
+            <p class="paragrafo2">Anni di attività</p>
+        </div>
+        <div class="centro3">
+        <h4 class="numero2">98%</h4>
+            <p class="paragrafo3">Clienti soddisfatti</p>
+        </div>
+        <div class="destra3">
+            <h4 class="numero3">5</h4>
+        <p class="paragrafo4">Numero di sedi</p>
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+    <div class="fine">
+        <h4 class="titolo6">Il nostro Team </h4>
+        <br>
+        <h3 class="titolo7"> Un gruppo di esperti appassionati di innovazione.</h3>
+
+        <div class="collage2">
+        </div>
+
+
+    </div>
+</body>
+</html>
