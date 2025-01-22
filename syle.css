@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #000000;
+    color: hwb(0 100% 0%);
+    font-family: "Roboto", serif;
+}
+.grassetto{
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    
+    color: #0bb7e7
+    
+}
+i{
+    font-size:20px;
+    color: #0bb7e7
+  }
+
+input {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    opacity:0.8;
+    
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    opacity:0.8;
+}
+
+input[type=submit] {
+    width: 35%;
+    padding: 12px 0px;
+    margin: 8px 0;
+
+}
+input[type=checkbox]{
+    position: left;
+    width:auto;
+    
+}
