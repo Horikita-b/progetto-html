@@ -1,1 +1,59 @@
-ciao
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBloom - Consulenza</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+
+    <!-- Intestazione e Menu di Navigazione -->
+    <header>
+        <div class="logo">
+            <img src="immagini/logo.png" alt="logo bytebloom" width="100">
+            <h1>ByteBloom</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chi-siamo.html">Chi siamo</a></li>
+                <li><a href="servizi.html">Servizi</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Introductivo -->
+    <section class="banner">
+        <h2>Benvenuti in ByteBloom</h2>
+        <p>Offriamo soluzioni di consulenza innovative per aiutare la tua azienda a crescere e prosperare.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 ByteBloom - Tutti i diritti riservati</p>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/ByteBloom">
+                    <img src="immagini/facebook-logo.png" alt="Facebook" width="30">
+                </a>
+                <a href="https://www.facebook.com/ByteBloom">Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/ByteBloom">
+                    <img src="immagini/linkedin-logo.png" alt="LinkedIn" width="30">
+                </a>
+                <a href="https://www.linkedin.com/company/ByteBloom">LinkedIn</a>
+            </li>
+            <li>
+                <a href="mailto:info@bytebloom.com">Email</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
