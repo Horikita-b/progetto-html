@@ -1,0 +1,82 @@
+/* Reset delle impostazioni di default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout generale */
+body {
+    font-family: "Roboto", serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+nav ul li a:hover{
+    color:#f4f4f4;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #0bb7e7;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+/* Stile per la home page */
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+footer ul li a{
+    display: block;
+    color:#0bb7e7;
+    margin-top: 5px;
+}
