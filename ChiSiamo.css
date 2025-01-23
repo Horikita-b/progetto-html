@@ -25,7 +25,7 @@ body { background-color:rgb(0, 0, 0);
 .immagine1 {
     width: auto;   /*adatta contenuto alla larghezza div*/
     height: 400px;  /*altezza elemento*/
-    background-image: url('immagini/1.jpg');
+    background-image: url('Images/1.jpg');
     background-size: cover; /*copre lo spazio dell'intero div*/
     background-position: center; 
     background-repeat: no-repeat;   
