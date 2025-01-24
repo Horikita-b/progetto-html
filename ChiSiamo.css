@@ -58,6 +58,7 @@ nav ul li a:hover {
     width: auto;   /*adatta contenuto alla larghezza div*/
     height: 400px;  /*altezza elemento*/
     background-image: url('images/1.jpg');
+
     background-size: cover; /*copre lo spazio dell'intero div*/
     background-position: center; 
     background-repeat: no-repeat;   

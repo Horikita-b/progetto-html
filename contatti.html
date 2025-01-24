@@ -6,59 +6,86 @@ Informazioni aggiuntive come indirizzo aziendale e numeri di telefono e integraz
 <html>
 
 <head>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/5dfde581c9.js" crossorigin="anonymous"></script>
     <!--collegamento a CSS-->
     <title>ByteBloom</title>
-    <link rel="stylesheet" href="CSS/syle.css">
+    <link rel="stylesheet" href="syle.css">
 </head>
 
 <body>
-    <img src ="IMMAGINI/prova contatti.jpg" alt="immagine contatti" width="100%" height="400">
+    <div class="ciao">
+        <div>
+            <h1>Contatta ByteBloom</h1>
+            <p>Per contattarci, seleziona l'opzione più adatta tra quelle proposte di seguito.</p>
+        </div>
+
+    </div>
     <!--informazioni dell'azienda-->
-    <h1>Contatta ByteBloom</h1>
-    <p>Per contattarci, seleziona l'opzione più adatta tra quelle proposte di seguito.</p>
-    
 
-    <h2>Richieste generiche</h2>
-    
-    <p><i class="fa-solid fa-location-dot"></i> <span class="grassetto">Indirizzo aziendale</span>: Via Delle Consulenze 123, 00100 Antananarivo, Madagascar.</p>
-    <p><i class="fa-solid fa-phone"></i><span class="grassetto"> Numero di telefono</span>: 06 123456789</p>
-    <p><i class="fa-solid fa-envelope"></i><span class="grassetto"> Email</span>: ByteBloom@consulenzainformatica.it</p>
-    
-    <h2>La nostra sede</h2>
-    <!--mappa-->
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15495698.298440374!2d36.20412600509595!3d-18.523050663953814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21d1a4e3ea238545%3A0x5244e3c1977b1388!2sMadagascar!5e0!3m2!1sit!2sit!4v1737384866245!5m2!1sit!2sit"
-        width="640" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-    
-    <h2>Invia una richiesta</h2>
 
-    Grazie per il tuo interesse verso ByteBloom. Per favore, compila il modulo sottostante con tutte le informazioni
-    necessarie perché possiamo supportarti al meglio. La tua richiesta sarà indirizzata alla persona più adatta.
-    Riceverai una risposta entro uno o due giorni lavorativi.
-    <p><span class="grassetto">Tutti i campi sono obbligatori.</span></p>
-    <!--form-->
-    <form>
-        <label for="fname">*Nome:</label><br>
-        <input type="text" id="fname" name="fname" required><br>
-        <label for="sname">*Cognome:</label><br>
-        <input type="text" id="sname" name="sname" required><br>
-        <label for="email">*Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="message">*Messaggio:</label><br>
-        <textarea id="message" name="message" required>
+    <div class="container">
+        <div class="items">
+
+
+            <h2>Richieste generiche</h2>
+            <div class="richieste">
+                <p><i class="fa-solid fa-location-dot"></i> <span class="grassetto">Indirizzo aziendale</span>: Via
+                    Delle Consulenze 123, 00100 Antananarivo, Madagascar.</p>
+                <p><i class="fa-solid fa-phone"></i><span class="grassetto"> Numero di telefono</span>: 06 123456789</p>
+                <p><i class="fa-solid fa-envelope"></i><span class="grassetto"> Email</span>:
+                    ByteBloom@consulenzainformatica.it</p>
+            </div>
+        </div>
+        <div class="items">
+            <h2>La nostra sede</h2>
+            <!--mappa-->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15495698.298440374!2d36.20412600509595!3d-18.523050663953814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21d1a4e3ea238545%3A0x5244e3c1977b1388!2sMadagascar!5e0!3m2!1sit!2sit!4v1737384866245!5m2!1sit!2sit"
+                width="540" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div class="items">
+            <h2 style="margin-top: 40px;">Invia una richiesta</h2>
+            <div class="box">
+
+
+                <p>Grazie per il tuo interesse verso ByteBloom.
+                    <br> Per favore, compila il modulo sottostante con tutte le informazioni
+                    necessarie perché possiamo supportarti al meglio.<br> La tua richiesta sarà indirizzata alla persona
+                    più adatta.
+                    Riceverai una risposta entro uno o due giorni lavorativi.
+                </p>
+                <br>
+                <p><span class="grassetto">Tutti i campi sono obbligatori.</span></p>
+                <br>
+
+                <form>
+                    <label for="fname">*Nome:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="sname">*Cognome:</label><br>
+                    <input type="text" id="sname" name="sname" required><br>
+                    <label for="email">*Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">*Messaggio:</label><br>
+                    <textarea id="message" name="message" required>
         </textarea><br>
-        <label for="consenso"> <input type="checkbox" id="consenso" name="consenso" required>
+                    <label for="consenso">
+                        <input type="checkbox" id="consenso" name="consenso" required>
 
-        </label>
-        *Acconsento all'utilizzo e al trattamento dei miei dati personali.<br>
-        <input type="submit" value="Invia">
-    </form>
+
+                        *Acconsento all'utilizzo e al trattamento dei miei dati personali.<br>
+                    </label>
+                    <input type="submit" value="Invia">
+                </form>
+            </div>
+        </div>
 
 </body>
 
