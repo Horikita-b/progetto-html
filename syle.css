@@ -57,13 +57,17 @@ nav ul li a:hover {
 }
 
 .container h2 {
+  font-size:48px;
   color: #0bb7e7;
 }
 
 .ciao h1 {
-
+  font-size:64px;
   color: #0bb7e7;
 
+}
+.ciao p{
+  font-size:24px;
 }
 
 i {

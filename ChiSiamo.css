@@ -60,11 +60,15 @@ nav ul li a:hover {
 /*fine navbar*/
 
 .paragrafo1 {
+    
     margin-top: 20px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.titolo1 p{
+    font-size: 24px;
 }
 
 
@@ -85,9 +89,9 @@ nav ul li a:hover {
     /*copre lo spazio dell'intero div*/
     background-position: center;
     background-repeat: no-repeat;
-    border-bottom-left-radius: 50% 15%;
+    border-bottom-left-radius: 25% 15%;
     /*curvatura orizzontale-verticale sinistra*/
-    border-bottom-right-radius: 50% 15%;
+    border-bottom-right-radius: 25% 15%;
     /*curvatura orizzontale-verticale destra*/
     margin-bottom: 150px;
 
@@ -97,8 +101,13 @@ nav ul li a:hover {
     text-align: center;
     padding: 75px;
     color: rgb(255, 255, 255);
+    
 
 
+
+}
+.titolo1 h1{
+    font-size: 64px;
 }
 
 .centro {
@@ -113,6 +122,7 @@ nav ul li a:hover {
 
 .centro .titolo2 {
     color: #0BB7E7;
+    font-size:48px;
 }
 
 .sinistra {
@@ -134,6 +144,7 @@ nav ul li a:hover {
 .fine .titolo6 {
     text-align: center;
     color: #0BB7E7;
+    font-size:48px;
 }
 
 .fine .titolo7 {
