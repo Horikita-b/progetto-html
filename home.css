@@ -15,7 +15,7 @@ body {
 
 
 .sfondo {
-    background-image: url("Images/immagine\ home.jpg");
+    background-image: url("Images/immagine_home.jpg");
     height: 500px;
     margin-bottom: 90px;
 
@@ -107,15 +107,15 @@ nav ul li a:hover {
 
 .destra {
     flex: 1; /* il div di sinistra occupa lo stesso spazio del div di destra */
-    margin-left: 150px;
-    background-image: url("Images/pexels-scottwebb-27406.jpg");
-    
+    background-image: url("Images/pexels-n-voitkevich-8062287.jpg");
+    background-size: cover;
+    border: 1px red solid;
 
     }
     
 .sinistra {
     flex: 1;/* il div di destra occupa lo stesso spazio del div di sinistra */
-    margin-right: 150px;
+  
     text-align: center;
         
     }
