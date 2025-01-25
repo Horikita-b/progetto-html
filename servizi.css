@@ -18,11 +18,18 @@ body {
 
 /* Heeader CSS */
 header {
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height:90px;
+  backdrop-filter: blur(4px);
+  position:fixed;
+  width:100%;
+  top:0px;
+  right:0px;
+  left:0px;
  
 }
 
@@ -69,6 +76,7 @@ nav ul li a:hover {
 
   h1 {
     font-size: 64px;
+    color: #0bb7e7;
   }
 
   h3 {
@@ -93,9 +101,11 @@ nav ul li a:hover {
   padding-inline: 100px;
   text-align: left;
 
+
   h2 {
     font-size: 48px;
     text-align: center;
+    color: #0bb7e7;
   }
 
   .container-cards {
@@ -164,7 +174,7 @@ footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 0px;
 
 
   width: 100%;

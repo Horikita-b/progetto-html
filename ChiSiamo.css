@@ -1,27 +1,39 @@
-* { font-family: "Roboto", serif;
+* {
+    font-family: "Roboto", serif;
     color: white;
     margin: 0;
     padding: 0;
 
 }
 
-body { background-color:rgb(0, 0, 0);
-}       
+body {
+    background-color: rgb(0, 0, 0);
+}
+
 header {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 90px;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 header .logo h1 {
     font-size: 24px;
 }
-nav ul li a:hover{
-    color:#f4f4f4;
+
+nav ul li a:hover {
+    color: #f4f4f4;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -49,51 +61,70 @@ nav ul li a:hover {
 .paragrafo1 {
     margin-top: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 
 
 .immagine1 {
-    width: auto;   /*adatta contenuto alla larghezza div*/
-    height: 400px;  /*altezza elemento*/
+    width: auto;
+    /*adatta contenuto alla larghezza div*/
+    height: 750px;
+    /*altezza elemento*/
     background-image: url('images/1.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    background-size: cover; /*copre lo spazio dell'intero div*/
-    background-position: center; 
-    background-repeat: no-repeat;   
-    border-bottom-left-radius: 50% 15%;  /*curvatura orizzontale-verticale sinistra*/
-    border-bottom-right-radius: 50% 15%; /*curvatura orizzontale-verticale destra*/
+
+    background-size: cover;
+    /*copre lo spazio dell'intero div*/
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50% 15%;
+    /*curvatura orizzontale-verticale sinistra*/
+    border-bottom-right-radius: 50% 15%;
+    /*curvatura orizzontale-verticale destra*/
     margin-bottom: 150px;
-    
+
 }
 
 .immagine1 .titolo1 {
     text-align: center;
     padding: 75px;
     color: rgb(255, 255, 255);
-    
-} 
+
+
+}
+
 .centro {
-    display: flex; /*rendo flex il div che contiene altri due div, così da poterli disporre in modo orizzontale */
+    display: flex;
+    /*rendo flex il div che contiene altri due div, così da poterli disporre in modo orizzontale */
     margin-top: 40px;
     margin-bottom: 130px;
-    margin-left: 25px;;
+    margin-left: 25px;
+    ;
 }
 
 
-.centro .titolo2 {color: #0BB7E7;
+.centro .titolo2 {
+    color: #0BB7E7;
 }
 
-    .sinistra {
-    flex: 1; /* il div di sinistra occupa lo stesso spazio del div di destra */
-    margin-top: 100px; 
+.sinistra {
+    flex: 1;
+    /* il div di sinistra occupa lo stesso spazio del div di destra */
+    margin-top: 100px;
 }
 
 .destra {
-    flex: 1;/* il div di destra occupa lo stesso spazio del div di sinistra */
-    padding: 40px; 
-    
+    flex: 1;
+    /* il div di destra occupa lo stesso spazio del div di sinistra */
+    padding: 40px;
+
 }
 
 
@@ -101,19 +132,22 @@ nav ul li a:hover {
     text-align: center;
     color: #0BB7E7;
 }
+
 .fine .titolo7 {
     text-align: center;
-    
+
 }
 
-.fa-solid{
+.fa-solid {
     font-size: 32px;
     color: #0BB7E7;
     background-color: rgb(8, 8, 8);
     border-radius: 10px;
     padding: 30px;
 }
-.bottom {display: flex;
+
+.bottom {
+    display: flex;
     margin-bottom: 130px;
     margin-left: 45px;
     margin-right: 45px;
@@ -133,62 +167,69 @@ nav ul li a:hover {
 
 .sinistra2 .paragrafo2 {
     text-align: center;
-    
+
 }
 
-.titolo3{
+.titolo3 {
     margin-bottom: 30px;
 }
-.titolo4{
+
+.titolo4 {
     margin-bottom: 30px;
 }
-.titolo5{
+
+.titolo5 {
     margin-bottom: 30px;
 }
+
 .centro2 .icona2 {
     margin-bottom: 30px;
 }
 
-.centro2{
+.centro2 {
     text-align: center;
     flex: 1;
     margin-bottom: 10px;
     margin-left: 47px;
     margin-right: 47px;
 }
+
 .centro .paragrafo3 {
     text-align: center;
-    
+
 }
+
 .destra2 .icona3 {
     margin-bottom: 30px;
 }
 
-.destra2{
+.destra2 {
     text-align: center;
     flex: 1;
     margin-bottom: 10px;
     margin-left: 47px;
     margin-right: 47px;
 }
+
 .centro .paragrafo4 {
     text-align: center;
-    
+
 }
 
 .collage {
-    
+
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-   margin-bottom: 130px;
+    margin-bottom: 130px;
     justify-content: center;
-    gap:10px;
+    gap: 10px;
 }
+
 .colonna {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
 }
 
 .colonna img {
@@ -207,39 +248,48 @@ nav ul li a:hover {
     margin-bottom: 130px;
 
 }
-.sinistra3{
+
+.sinistra3 {
     text-align: center;
     flex: 1;
     margin-bottom: 10px;
 }
 
 .sinistra3 .numero1 {
-    font-size: 41px;;
-}
-.centro3{
-    text-align: center;
-    flex: 1;
-    margin-bottom: 10px;
-}
-.centro3 .numero2 {
-    font-size: 41px;;
-}
-.destra3{
-    text-align: center;
-    flex: 1;
-    margin-bottom: 10px;
-}
-.destra3 .numero3 {
-    font-size: 41px;;
+    font-size: 41px;
+    ;
 }
 
-.paragrafo5 { text-align: center;
-    
+.centro3 {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.centro3 .numero2 {
+    font-size: 41px;
+    ;
+}
+
+.destra3 {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.destra3 .numero3 {
+    font-size: 41px;
+    ;
+}
+
+.paragrafo5 {
+    text-align: center;
+
 }
 
 .paragrafo6 {
-    text-align: center; 
-    font-style: italic; 
+    text-align: center;
+    font-style: italic;
     margin-bottom: 45px;
 }
 
@@ -251,7 +301,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     margin-top: 100px;
     margin-bottom: 100px;
- 
+
 }
 
 .persona {
@@ -273,7 +323,7 @@ nav ul li a:hover {
 .persona h3 {
     font-size: 1.2rem;
     margin-bottom: 5px;
-    
+
 }
 
 .persona p {
@@ -289,7 +339,7 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 footer ul {
@@ -303,8 +353,9 @@ footer ul li {
     margin: 10px;
     text-align: center;
 }
-footer ul li a{
+
+footer ul li a {
     display: block;
-    color:#0bb7e7;
+    color: #0bb7e7;
     margin-top: 5px;
 }
