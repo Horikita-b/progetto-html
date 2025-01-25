@@ -93,30 +93,35 @@ nav ul li a:hover {
 }
 
 .storia {
-    width: 1000px;
+    width: 80%;
+    gap: 20px;
     display: flex; /*rendo flex il div che contiene altri due div, così da poterli disporre in modo orizzontale */
+    justify-content: space-between;
+    align-items: center;
     margin-inline: auto;
     margin-top: 180px;
     color: white;
+    height: 500px;
 
 }
 
 .storia .titolo {
     color: #0bb7e7;
 }
-
+.destra img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 .destra {
-    flex: 1; /* il div di sinistra occupa lo stesso spazio del div di destra */
-    background-image: url("Images/pexels-n-voitkevich-8062287.jpg");
-    background-size: cover;
-    border: 1px red solid;
-
-    }
-    
+    flex: 1;
+}
 .sinistra {
-    flex: 1;/* il div di destra occupa lo stesso spazio del div di sinistra */
-  
+    
+    flex: 1;
+    
     text-align: center;
+
         
     }
 
