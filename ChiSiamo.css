@@ -116,9 +116,11 @@ nav ul li a:hover {
 }
 
 .sinistra {
+
     flex: 1;
     /* il div di sinistra occupa lo stesso spazio del div di destra */
     margin-top: 100px;
+
 }
 
 .destra {
