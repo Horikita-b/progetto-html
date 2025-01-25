@@ -85,7 +85,7 @@ nav ul li a:hover {
 .centro .titolo2 {color: #0BB7E7;
 }
 
-    .sinistra {
+.sinistra {
     flex: 1; /* il div di sinistra occupa lo stesso spazio del div di destra */
     margin-top: 100px; 
 }

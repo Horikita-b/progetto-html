@@ -9,11 +9,15 @@
 body {
     font-family: "Roboto", serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    background-image: url('Images/immagine\ home.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: #000000;
+    
+}
+
+
+.sfondo {
+    background-image: url("Images/immagine\ home.jpg");
+    height: 500px;
+    margin-bottom: 90px;
 }
 
 header {
@@ -68,13 +72,52 @@ nav ul li a:hover {
     color: white;
 }
 
+.Scopriservizi {
+    text-align: center;
+    margin-inline: auto;
+    width: 550px;
+    color: white;
+
+}
+
+.storia {
+    width: 1000px;
+    display: flex; /*rendo flex il div che contiene altri due div, così da poterli disporre in modo orizzontale */
+    margin-inline: auto;
+    margin-top: 180px;
+    color: white;
+
+}
+
+.storia .titolo {
+    color: #0bb7e7;
+}
+
+.destra {
+    flex: 1; /* il div di sinistra occupa lo stesso spazio del div di destra */
+    margin-left: 150px;
+    background-image: url("Images/pexels-scottwebb-27406.jpg");
+    
+
+    }
+    
+.sinistra {
+    flex: 1;/* il div di destra occupa lo stesso spazio del div di sinistra */
+    margin-right: 150px;
+    text-align: center;
+        
+    }
+
+
+
+
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 0px;
-    position: absolute;
-     bottom: 0%;
+    
     width: 100%;
 }
 
