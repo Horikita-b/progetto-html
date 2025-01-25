@@ -12,12 +12,27 @@ body {
     background-color: #000000;
     
 }
-
+h1{
+    font-size: 64px;
+    color: #0bb7e7;
+}
+p{
+    font-size:24px;
+}
+h2{
+    color: #0bb7e7;
+    font-size:48px;
+}
 
 .sfondo {
     background-image: url("Images/immagine_home.jpg");
-    height: 500px;
+    height: 750px;
     margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 25% 15%;
+  border-bottom-right-radius: 25% 15%;
 
 }
 
@@ -97,9 +112,10 @@ nav ul li a:hover {
     gap: 20px;
     display: flex; /*rendo flex il div che contiene altri due div, così da poterli disporre in modo orizzontale */
     justify-content: space-between;
+    align-items:baseline;
     align-items: center;
     margin-inline: auto;
-    margin-top: 180px;
+    margin-top:50px;
     color: white;
     height: 500px;
 
@@ -107,6 +123,7 @@ nav ul li a:hover {
 
 .storia .titolo {
     color: #0bb7e7;
+    
 }
 .destra img {
     width: 100%;
@@ -115,6 +132,7 @@ nav ul li a:hover {
 }
 .destra {
     flex: 1;
+    
 }
 .sinistra {
     
@@ -154,3 +172,7 @@ footer ul li a{
     color:#0bb7e7;
     margin-top: 5px;
 }
+ul{
+    margin:0px;
+    padding:0px;
+  }
